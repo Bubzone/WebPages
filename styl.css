@@ -1,0 +1,72 @@
+body{
+    background: linear-gradient(-90deg, #11009E 35.5%, #4942E4 56.5%);
+    background-repeat: no-repeat;
+    font-family: The Girl Next Door;
+    color: #FAE7F3;
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#LeftSide, #RightSide{
+    width: 50%;
+    height: 1080px;
+}
+
+#LeftSide{
+    float: left;
+}
+
+#title{
+    width: 254px;
+    height: 78px;
+    border-radius: 90px;
+    box-shadow: -3px 3px 30px 1px #11009E inset;
+    box-shadow: 0px 4px 70px 15px #11009E;
+    background: #4942E4;
+}
+
+#titleLabel{
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 118px;
+}
+
+#desc{
+    width: 254px;
+    height: 593px;
+    top: 339px;
+    left: 150px;
+    border-radius: 50px;
+    background: #4942E4;
+    box-shadow: 0px 4px 30px 1px #11009E inset;
+    box-shadow: 0px 4px 70px 15px #11009E;
+}
+
+#descLabel{
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 118px;
+    letter-spacing: 0em;
+}
+
+#add{
+    width: 200px;
+    height: 50px;
+    border-radius: 62px;
+    background: #E6B9DE;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 66px;
+    letter-spacing: 0em;
+}
+
+h1{
+    font-size: 96px;
+    font-weight: 400;
+}
