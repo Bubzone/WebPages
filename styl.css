@@ -1,9 +1,8 @@
 body{
-    background: linear-gradient(-90deg, #11009E 35.5%, #4942E4 56.5%);
+    background: linear-gradient(-90deg, #11009E 30%, #4942E4 65%);
     background-repeat: no-repeat;
     font-family: The Girl Next Door;
     color: #FAE7F3;
-
 }
 
 section {
@@ -26,33 +25,35 @@ section {
     width: 254px;
     height: 78px;
     border-radius: 90px;
-    box-shadow: -3px 3px 30px 1px #11009E inset;
+    box-shadow: inset -3px 3px 30px 1px #11009E ;
     box-shadow: 0px 4px 70px 15px #11009E;
-    background: #4942E4;
+    background: transparent;
+    border: none;
 }
 
 #titleLabel{
     font-size: 64px;
     font-weight: 400;
     line-height: 118px;
+    margin-left: 90px;
 }
 
 #desc{
     width: 254px;
     height: 593px;
-    top: 339px;
-    left: 150px;
     border-radius: 50px;
     background: #4942E4;
     box-shadow: 0px 4px 30px 1px #11009E inset;
     box-shadow: 0px 4px 70px 15px #11009E;
+    border: none;
 }
 
 #descLabel{
+    position: absolute;
     font-size: 64px;
     font-weight: 400;
     line-height: 118px;
-    letter-spacing: 0em;
+    margin-left: 90px;
 }
 
 #add{
@@ -63,7 +64,9 @@ section {
     font-size: 36px;
     font-weight: 400;
     line-height: 66px;
-    letter-spacing: 0em;
+    margin-left: 194px;
+    color: #FAE7F3;
+    font-family: The Girl Next Door;
 }
 
 h1{
